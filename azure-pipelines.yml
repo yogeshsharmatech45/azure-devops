@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    mavenPomFile: 'src/main/webapp/pom.xml'
+    mavenPomFile: 'MavenHelloWorld-master/pom.xml'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.11'
     jdkArchitectureOption: 'x64'
